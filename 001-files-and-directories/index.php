@@ -24,5 +24,9 @@
   }
 
   $albums = getFiles(ALBUMS_PATH);
+
+  foreach ($albums as $album) {
+    
+  }
   print_r($albums["Dimmu Borgir"]["Abrahadabra"]);
 ?>
